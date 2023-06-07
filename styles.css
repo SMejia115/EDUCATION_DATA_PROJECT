@@ -1,0 +1,109 @@
+/* Estilos para el cabecero */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-family: "Arial", sans-serif; /* Cambiar por la tipografía deseada */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ajustar el alto del menú al 100% del header */
+}
+
+nav ul li {
+    display: inline-block; /* Mostrar las opciones en línea */
+    margin-right: 10px;
+    height: 100%; /* Ajustar el alto de las opciones al 100% del menú */
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center; /* Centrar verticalmente el texto */
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s ease;
+    height: 100%; /* Ajustar el alto del enlace al 100% del menú */
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+nav ul li a.active {
+    background-color: #555;
+    color: #fff;
+    border-bottom-color: #555; /* Establecer el color del remarcado activo */
+}
+
+nav ul li a:not(.active):hover {
+    border-bottom-color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-box {
+    width: 23%;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #ccc; /* Agregar borde a cada card */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición de color y transformación al pasar el cursor */
+    transform: scale(1); /* Establecer escala inicial */
+}
+
+.card-box:hover {
+    background-color: #f2f2f2; /* Cambiar el color de fondo al pasar el cursor */
+    transform: scale(1.05); /* Aumentar la escala al pasar el cursor */
+}
+
+.card {
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #333;
+}
