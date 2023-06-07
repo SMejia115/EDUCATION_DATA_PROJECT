@@ -65,7 +65,7 @@ h1 {
     width: 23%;
     margin-bottom: 20px;
     background-color: #f9f9f9;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     border: 1px solid #ccc; /* Agregar borde a cada card */
@@ -106,4 +106,28 @@ h1 {
 
 .card button:hover {
     background-color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #666666;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #1567d1;
+}
+
+.card img {
+    height: 225px; /* Establece la altura deseada */
+    width: 225px; /* Ajusta la anchura de forma automática para mantener la proporción de aspecto */
+    border-radius: 7px;
 }
