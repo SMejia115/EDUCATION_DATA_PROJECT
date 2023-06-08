@@ -1,6 +1,7 @@
 var responseData; // Variable to store the data
 var API_URL = 'https://www.datos.gov.co/resource/ji8i-4anb.json?$select=ano,c_digo_departamento,departamento,poblacion_5_16,tasa_matriculacion_5_16,cobertura_neta,desercion&$where=c_digo_departamento='+dept+'&$order=ano%20ASC';
 
+// Get the data from the API
 fetch(API_URL)
 .then(response => response.json())
 .then(data => {
@@ -68,7 +69,7 @@ function extract_graphic3(array) {
 }
 
 google.charts.load('current', {'packages':['bar']});
-//google.charts.setOnLoadCallback(drawChart1);
+google.charts.setOnLoadCallback(drawChart1);
 
 function drawChart1() {
     var data = google.visualization.arrayToDataTable(extract_graphic1(responseData));
@@ -89,7 +90,7 @@ function drawChart1() {
 }
 
 google.charts.load('current', {'packages':['corechart']});
-//google.charts.setOnLoadCallback(drawChart2);
+google.charts.setOnLoadCallback(drawChart2);
 
 function drawChart2() {
     var data = google.visualization.arrayToDataTable(extract_graphic2(responseData));
@@ -106,7 +107,7 @@ function drawChart2() {
 }
 
 google.charts.load('current', {'packages':['bar']});
-//google.charts.setOnLoadCallback(drawChart3);
+google.charts.setOnLoadCallback(drawChart3);
 
 function drawChart3() {
     var data = google.visualization.arrayToDataTable(extract_graphic3(responseData));
