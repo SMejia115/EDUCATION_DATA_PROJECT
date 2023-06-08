@@ -11,9 +11,9 @@
     <header>
     <nav>
         <ul>
-            <li><a href="index.html" class="active">INICIO</a></li>
+            <li><a href="index.php" class="active">INICIO</a></li>
             <li><a href="departamentos.html">DEPARTAMENTOS</a></li>
-            <li><a href="info_nacional.html">INFO. NACIONAL</a></li>
+            <li><a href="info_nacional.php">INFO. NACIONAL</a></li>
             <li><a href="contacto.html">CONTACTO</a></li>
         </ul>
     </nav>
