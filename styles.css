@@ -1,4 +1,8 @@
 /* Estilos para el cabecero */
+body {
+    margin: 0;
+}
+
 header {
     background-color: #f2f2f2;
     padding: 20px;
