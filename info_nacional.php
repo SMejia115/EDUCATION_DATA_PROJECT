@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Datos Estadisticos</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <style>
         #columnchart_material, #chart_div, #curve_chart{
             width: 75%;
@@ -14,7 +13,34 @@
             margin: auto;
             padding-top: 20px;
         }
+        /* Styling the table */
+        table {
+          width: 80%;
+          margin: auto;
+          border-collapse: collapse;
+        }
+
+        /* Styling the table header */
+        th {
+          background-color: #1567d1;
+          color: #fff;
+          font-weight: bold;
+          padding: 8px;
+          border: 1px solid #ccc;
+        }
+
+        /* Styling the table cells */
+        td {
+          padding: 8px;
+          border: 1px solid #ccc;
+        }
+
+        /* Alternating row colors */
+        tr:nth-child(even) {
+          background-color: #f9f9f9;
+        }
     </style>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script>var dept = 0;</script>
     <script src="graphics.js"></script>
 </head>
@@ -38,7 +64,7 @@
     <div id="curve_chart" style="width: 75%; height: 500px; margin: auto;"></div>
     <br><hr>
     <div id="chart_div" style="width: 75%; height: 500px; margin: auto; padding-top: 20px;"></div>
-
+    <br><hr>
     <?php
         function promedios($array) {
             $result = [];
