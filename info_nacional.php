@@ -22,9 +22,9 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">INICIO</a></li>
+                <li><a href="index.php">INICIO</a></li>
                 <li><a href="departamentos.html">DEPARTAMENTOS</a></li>
-                <li><a href="info_nacional.html" class="active">INFO. NACIONAL</a></li>
+                <li><a href="info_nacional.php" class="active">INFO. NACIONAL</a></li>
                 <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
