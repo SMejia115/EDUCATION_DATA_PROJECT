@@ -29,17 +29,17 @@
             <p>Para cada uno de los 32 departamentos mostramos 3 gráficas:</p>
             
             <div class="graph">
-                <img src="grafica1.jpg" alt="Gráfica 1">
+                <img src="IMAGES/GRAFICA 1.png" alt="Gráfica 1">
                 <p>En esta gráfica, se puede ver una relación utilizando una gráfica de barras entre la cantidad de matriculados y la población total.</p>
             </div>
             
             <div class="graph">
-                <img src="grafica2.jpg" alt="Gráfica 2">
+                <img src="IMAGES/GRÁFICA 2.png" alt="Gráfica 2">
                 <p>En esta gráfica mostramos las tasas de deserción comparadas con las tasas de matriculación por departamento.</p>
             </div>
             
             <div class="graph">
-                <img src="grafica3.jpg" alt="Gráfica 3">
+                <img src="IMAGES/GRÁFICA 3.png" alt="Gráfica 3">
                 <p>En esta última gráfica mostramos el porcentaje de cobertura neta, que nos muestra la proporción de la población entre 5 y 16 años que se encuentra asistiendo al sistema educativo.</p>
             </div>
         </div>
